@@ -1864,3 +1864,9 @@ li {
 }
 
 /********************************************/
+
+@media screen and (max-width: 90px) { 
+    button.navbar-toggler {
+        display: none;
+    }
+}
