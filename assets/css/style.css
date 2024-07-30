@@ -198,6 +198,7 @@ li {
         -o-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
     }
+
     100% {
         opacity: 0.9;
         transform: translateY(0);
@@ -212,6 +213,7 @@ li {
     from {
         -webkit-transform: scale(1) translate(0px);
     }
+
     to {
         -webkit-transform: scale(1.3) translate(0px);
     }
@@ -221,6 +223,7 @@ li {
     from {
         -webkit-transform: scale(1) translate(0px);
     }
+
     to {
         -webkit-transform: scale(1.3) translate(0px);
     }
@@ -975,7 +978,7 @@ li {
 /************* About Section ****************/
 
 .bg_img_about {
-    background-image: url(../images/about-images/bg-about.png);
+    background-image: url(../images/about-images/bg-about.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1864,9 +1867,9 @@ li {
 }
 
 /********************************************/
-
-@media screen and (max-width: 90px) { 
-    button.navbar-toggler {
-        display: none;
+/* Hide hamburger icon in desktop view */
+@media (min-width: 992px) {
+    .navbar-toggler.sidebar_icon {
+        display: none !important;
     }
 }
