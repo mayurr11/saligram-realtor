@@ -30,3 +30,20 @@
     margin: 0;
 }
 
+.info-heading h1 {
+    /* Add styling for the heading if needed */
+}
+
+p.info-text {
+    text-align: justify;
+    /* Add additional styling for the paragraph if needed */
+}
+
+.info-text span.bold {
+    font-weight:800;
+    /* Add additional styling for the span if needed */
+}
+
+.client_review p {
+    line-break:auto;
+}
