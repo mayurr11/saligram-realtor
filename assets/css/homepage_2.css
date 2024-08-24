@@ -191,7 +191,7 @@
 
 .image_slider:before {
     content: '';
-    background-image: url(../images/background-shape/bg-shape-2.png);
+    /* background-image: url(../images/background-shape/bg-shape-2.png); */
     width: 105px;
     height: 80px;
     position: absolute;
@@ -201,7 +201,7 @@
 
 .image_slider:after {
     content: '';
-    background-image: url(../images/background-shape/bg-shape-3.png);
+    /* background-image: url(../images/background-shape/bg-shape-3.png); */
     width: 105px;
     height: 80px;
     position: absolute;
