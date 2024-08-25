@@ -1,0 +1,14 @@
+# Allow all crawlers access to the entire site
+User-agent: *
+Disallow:
+
+# Block specific user-agents (optional)
+User-agent: BadBot
+Disallow: /
+
+# Allow Googlebot to crawl everything, but block Bingbot
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow: /
